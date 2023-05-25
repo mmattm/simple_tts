@@ -47,7 +47,6 @@ app.post("/tts", jsonParser, async (req, res) => {
       {
         method: "POST",
         headers: {
-          // Authorization: `Token AIzaSyBVYukHSXjIeer35wPFTWe4WhfgQ0-eaBE`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify(requestBody),
